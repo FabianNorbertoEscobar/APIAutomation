@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Ejemplo de Request para Udemy" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-02-07T22:44:24" hostname="SAMSUNGNP300E5A" time="9.633">
+  <properties/>
+  <testcase name="Prueba GET al endpoint." classname="Ejemplo de Request para Udemy" time="9.633"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

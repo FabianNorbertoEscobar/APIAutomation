@@ -1,0 +1,65 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-02-07T22:44:25.044Z",
+        "line": 4,
+        "name": "Prueba GET al endpoint.",
+        "description": "",
+        "id": "ejemplo-de-request-para-udemy;prueba-get-al-endpoint.",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4024520600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I send a GET request to the https://api.github.com URI",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://api.github.com",
+                  "offset": 28
+                }
+              ],
+              "location": "Steps.APISteps.sendGETRequest(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4545260700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I get a 200 status code",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 8
+                }
+              ],
+              "location": "Steps.APISteps.validateListOfUsers(int)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@API"
+          }
+        ]
+      }
+    ],
+    "name": "Ejemplo de Request para Udemy",
+    "description": "",
+    "id": "ejemplo-de-request-para-udemy",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/APITest.feature",
+    "tags": []
+  }
+]
